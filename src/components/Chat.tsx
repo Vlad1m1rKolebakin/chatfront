@@ -11,7 +11,7 @@ const Chat: React.FC = () => {
 
   // Подключение к серверу
   useEffect(() => {
-    const newSocket = io('http://localhost:3000'); // Укажите URL вашего сервера
+    const newSocket = io('https://servachok-1.onrender.com'); // Укажите URL вашего сервера
     setSocket(newSocket);
 
     // Обработка входящих сообщений
