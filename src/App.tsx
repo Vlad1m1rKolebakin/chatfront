@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1>Chat Application</h1>
+      <h1>Cha cha cha Application</h1>
       <ul>
         {messages.map((message, index) => (
           <li key={index}>{message}</li>
