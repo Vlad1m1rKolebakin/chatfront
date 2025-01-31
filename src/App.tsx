@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('https://servachok.onrender.com'); // Подключаемся к серверу
+const socket = io('https://servachok-1.onrender.com'); // Подключаемся к серверу
 
 function App() {
   const [messages, setMessages] = useState<string[]>([]);
