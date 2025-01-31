@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center' }}>
+      cha cha cha
      <Chat/>
     </div>
   );
