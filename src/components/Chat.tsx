@@ -34,7 +34,7 @@ const Chat: React.FC = () => {
   };
 
   return (
-    <div >
+    <div  >
       <div >
         {messages.map((message, index) => (
           <MessageComponent key={index} message={message} />
